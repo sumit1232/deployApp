@@ -16,4 +16,4 @@ mongoose.connect(process.env.MONGO_URI, {
 const todoRoutes = require('./routes/todoRoutes');
 app.use('/todos', todoRoutes);
 
-app.listen(8080, () => console.log('Server running on port 5000'));
+app.listen(8080, () => console.log('Server running on port 8080'));
